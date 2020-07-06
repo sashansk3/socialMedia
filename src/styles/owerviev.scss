@@ -1,0 +1,23 @@
+.owerview {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1;
+  
+  &__header {
+    width: 100%;
+    font-size: 2rem; 
+    font-weight: 700;
+    display: flex;
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
